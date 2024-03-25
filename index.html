@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students vs Ouzera: University Edition</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4c536a6bd5.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">STUDENTS VS OUZERA: UNIVERSITY EDITION</h1>
+    </header>
+    <main class="main">
+        <div class="scoreboard">
+            <h2 class="score-info" id="scoreInfo">Choose your weapon</h2>
+            <h3 class="score-message" id="scoreMessage">
+                First to score 5 points wins the game
+            </h3>
+            <div class="scores-container">
+                <div class="score-box">
+                    <div class="sign" id="studentSign">❔</div>
+                    <p class="score" id="studentScore">Student: 0</p>
+                </div>
+                <div class="score-box">
+                    <div class="sign" id="ouzeraSign">❔</div>
+                    <p class="score" id="ouzeraScore">Ouzera: 0</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-square" id="osBtn">
+                <div class="sign">👨‍💻</div>
+                <div><b>Operating System</b></div>
+            </button>
+            <button class="btn btn-square" id="informationSystemBtn">
+                <div class="sign">🗃️</div>
+                <div><b>Information System</b></div>
+            </button>
+            <button class="btn btn-square" id="networkingBtn">
+                <div class="sign">🌐</div>
+                <div><b>Networking</b></div>
+            </button>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            yacineallal
+        </p>
+        <a href="https://github.com/SisyphusTheSecond" target="_blank">
+            <i class="fab fa-github"></i
+          ></a>
+    </footer>
+    <div class="modal" id="endgameModal">
+        <p class="modal-title" id="endgameMsg"></p>
+        <button class="btn btn-restart" id="restartBtn">Play again</button>
+      </div>
+      <div class="overlay" id="overlay"></div>
+      <script src="script.js"></script>
+</body>
+</html>
