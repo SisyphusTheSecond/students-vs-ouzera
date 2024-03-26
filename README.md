@@ -1,4 +1,4 @@
-# Student vs Ouzera game
+# Students vs Ouzera game
 
 Project to create **Students vs Ouzera** game using only HTML, CSS and Vanilla JS.
 
