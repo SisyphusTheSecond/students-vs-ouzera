@@ -43,4 +43,4 @@ Project to create **Students vs Ouzera** game using only HTML, CSS and Vanilla J
 ## Author
 
 👤 **Yacine Allal**
-* GitHub: [Yacine_Allal](https://github.com/SisysphusTheSecond)
+* GitHub: [Yacine_Allal](https://github.com/SisyphusTheSecond)
