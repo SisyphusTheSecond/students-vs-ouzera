@@ -21,7 +21,7 @@ Project to create **Students vs Ouzera** game using only HTML, CSS and Vanilla J
 ## Outcome
 
 * Used HTML5 **semantic elements** for better readability and structure.
-* Used CSS3 **flexbox** to create template and responsivness.
+* Used CSS3 **flexbox** to create template and responsiveness.
 * Used **Git** and **GitHub** for project management.
 * Used **Font Awesome** icons.
 
